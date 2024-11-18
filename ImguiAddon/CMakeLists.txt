@@ -15,6 +15,8 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(glfw)
 
+set(GLFW_USE_WAYLAND OFF CACHE BOOL "Disable Wayland support")
+
 # ImGui
 FetchContent_Declare(
 	imgui
