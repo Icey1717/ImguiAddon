@@ -1,8 +1,8 @@
 # ImguiAddon
 
-**ImguiAddon** is a lightweight C++ library that provides a simple API for running an ImGui-powered window on its own thread. Designed for seamless integration into your projects, it supports customizable frame rates, dynamic window sizing, and user-defined rendering logic.
+[![CMake on multiple platforms](https://github.com/Icey1717/ImguiAddon/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/Icey1717/ImguiAddon/actions/workflows/cmake-multi-platform.yml)
 
----
+**ImguiAddon** is a lightweight C++ library that provides a simple API for running an ImGui-powered window on its own thread. Designed for seamless integration into your projects, it supports customizable frame rates, dynamic window sizing, and user-defined rendering logic.
 
 ## Features
 
@@ -10,8 +10,6 @@
 - **Simple API**: Create and configure a window with minimal boilerplate.
 - **Custom update callback**: Define your ImGui content using an easy-to-implement callback function.
 - **Adjustable frame rate**: Control the target frame rate for smooth rendering.
-
----
 
 ## Getting Started
 
